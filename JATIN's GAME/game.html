@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <div class="try">
+      <nav class="header">
+        <div class="about">
+          <p>&lt Between 1 and 20 &gt</p>
+        </div>
+      </nav>
+    </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="game.css" />
+    <title>GUESS NUMBER!!</title>
+  </head>
+
+  <body>
+    <p class="name" style="text-align: center">&nbsp &nbspGUESS THE NUMBER!!</p>
+    <br />
+    <div class="divider">
+      <hr class="left_Hr" />
+      <span id="q" style="background-color: grey; color: white">?</span>
+      <hr class="right_Hr" />
+    </div>
+    <div class="left" style="padding: 50px 100px">
+      <input type="number" class="usernum" placeholder="Enter" />
+    </div>
+
+    <div class="check cls" style="padding-left: 100px">
+      <button type="submit" class="check" id="checknum">Check!!</button>
+    </div>
+    <!-- for visibility off  -->
+    <!--1.  display :none; -->
+    <!-- 2.  visibility:hidden -->
+
+    <!-- for visibility on  -->
+    <!--1.  display :inline/block; -->
+    <!-- 2.  visibility:visible-->
+    <div style="padding: 48px 0px 0px 100px; visibility: hidden">
+      <!-- <form action="http://127.0.0.1:5500/game.html"> -->
+      <button class="hide">NEW GAME💥</button>
+      <!-- </form> -->
+    </div>
+    <div class="right">
+      <span class="hint" style="padding-right: 150px; font-size: larger padding"
+        >Start Guessing..</span
+      >
+      <div class="result">
+        <!-- <p class="score" style="padding-right: 150px">💯Score :</p>
+        <span id="updateScore">20</span>
+        <p class="highscore" style="padding: 9px 108px">🥇HighScore :</p>
+        <span id="updateHS">0</span> -->
+
+        <table id="tab" align="right" style="padding-right: 65px">
+          <tr style="font-size: 22px">
+            <td colspan="2" id="status" style="color: red" ;></td>
+          </tr>
+          <tr>
+            <td></td>
+          </tr>
+          <tr id="r1">
+            <td id="score" style="text-align: left">
+              <p class="score">&nbsp;💯Score&nbsp;&nbsp;&nbsp;&nbsp; :</p>
+            </td>
+            <td id="updateScore"></td>
+          </tr>
+          <tr id="r1">
+            <td id="highscore">
+              <p class="highscore">&nbsp;🥇HighScore :&nbsp;</p>
+            </td>
+            <td><span id="updateHS">0</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="/game.js"></script>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Press Start 2P', cursive;
+  background-color: black;
+  color: aliceblue;
+}
+
+.name {
+  letter-spacing: 6px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+hr {
+  width: 90%;
+  height: 5px;
+  background-color: white;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.num {
+  font-size: 50px;
+  /* padding-top: 30px; */
+}
+
+.about {
+  padding-right: 10px;
+  text-align: right;
+  font-size: 12px;
+}
+
+.divider {
+  margin-left: 3%;
+  width: 94%;
+  text-align: center;
+}
+.divider hr {
+  padding-left: 18px;
+  padding-right: 18px;
+  width: 38%;
+}
+
+#q {
+  padding: 19px;
+}
+
+.divider {
+  /* font-style: italic; */
+  font-size: 42px;
+}
+.left_Hr {
+  float: left;
+
+  /* width: 40%; */
+}
+
+.right_Hr {
+  /* width: 40%; */
+  float: right;
+}
+
+.right {
+  text-align: right;
+  /* margin-top: 90px; */
+}
+
+div .result {
+  padding-top: 50px;
+  padding-right: 100px;
+}
+p .highscore {
+  padding-left: 280px;
+}
+
+div .usernum {
+  font-size: 27px;
+  padding-left: 20px;
+  width: 160px;
+  font-family: 'Press Start 2P', cursive;
+  height: 50px;
+  color: black;
+  background-color: white;
+  border: 3px dotted grey;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+div .check {
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border: 3px dotted grey;
+  font-size: 27px;
+  font-family: 'Press Start 2P', cursive;
+  border-radius: 5px;
+}
+
+div .right div .result span #updateScore {
+  margin-bottom: 30px;
+}
+
+div .hide {
+  width: 280px;
+  height: 50px;
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border: 3px dotted grey;
+  font-size: 27px;
+  font-family: 'Press Start 2P', cursive;
+  border-radius: 5px;
+}
