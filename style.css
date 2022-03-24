@@ -1,0 +1,519 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Ubuntu:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+nav .navi .nav-link:hover {
+  /* background-color: rgb(236, 236, 236); */
+  /* background: rgb(165, 29, 47);
+
+/* background: rgb(165, 29, 47); */
+  /* background: #000; */
+
+  color: #dc3545 !important;
+  transition: 0.36s !important;
+}
+
+.vid-parent {
+  position: relative;
+}
+
+video {
+  /* height:fit-content; */
+  width: 100%;
+  min-height: 805px;
+  /* margin-top: -19px !important; */
+}
+
+.overlay {
+  position: absolute;
+
+  left: 0;
+  min-height: 800px;
+  width: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: 1;
+  /* margin-top: -10px; */
+}
+
+.intro {
+  position: absolute;
+  top: 33%;
+  left: 400px;
+  /* opacity: 0.9; */
+  z-index: 1;
+  letter-spacing: 1px;
+  padding-bottom: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.introh1 {
+  animation-name: hide-intro;
+  animation-duration: 4.6s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-delay: 3s;
+}
+
+@keyframes hide-intro {
+  0% {
+    font-weight: 340;
+    opacity: 0;
+  }
+
+  25% {
+    font-weight: 360;
+    opacity: 0.6;
+  }
+
+  50% {
+    font-weight: 370;
+    opacity: 0.8;
+  }
+
+  75% {
+    font-weight: 380;
+    opacity: 0.9;
+  }
+
+  100% {
+    font-weight: 390;
+    opacity: 1;
+  }
+}
+
+.introsmall {
+  animation-name: hide-introsmall;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 0;
+  font-size: 18px;
+  /* padding-left: 20px; */
+  /* margin-left: 17px;
+margin-right: 14px; */
+  /* opacity: 1; */
+}
+
+@keyframes hide-introsmall {
+  0% {
+    opacity: 0;
+    /* visibility: hidden; */
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  25% {
+    /* visibility: visible; */
+    opacity: 0.5;
+    font-size: 15px;
+    font-weight: 520;
+  }
+
+  50% {
+    opacity: 0.4;
+    font-weight: 540;
+    font-size: 13px;
+  }
+
+  75% {
+    opacity: 0.6;
+    /* margin-right: 10px; */
+    font-weight: 560;
+    /* font-size: 14px; */
+  }
+
+  100% {
+    font-size: 18px;
+    /* margin-right: 14px; */
+    opacity: 1;
+    font-weight: 580;
+    /* font-size: 15px; */
+  }
+}
+
+#introa {
+  animation-name: hide-introa;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-delay: 0s;
+  word-spacing: 2.6px;
+  letter-spacing: 0.7px;
+  /* margin-left: 2px !important; */
+}
+
+@keyframes hide-introa {
+  0% {
+    /* pointer-events: ; */
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+    /* pointer-events: none; */
+  }
+
+  50% {
+    opacity: 0;
+    /* pointer-events: none; */
+  }
+
+  70% {
+    /* margin-left: 2px !important; */
+    /* cursor: pointer; */
+
+    opacity: 0.3;
+    /* margin-left: -37px; */
+  }
+
+  80% {
+    /* margin-left: 2px !important; */
+    /* cursor: pointer; */
+
+    opacity: 0.5;
+    /* margin-left: 3px; */
+  }
+
+  95% {
+    opacity: 0.8;
+    /* margin-left: 2px !important; */
+    /* cursor: pointer; */
+
+    /* margin-left: 6px; */
+  }
+  100% {
+    /* margin-left: 2px !important; */
+    /* cursor: pointer; */
+
+    /* padding: -4px !important; */
+
+    /* margin-left: 10px; */
+    opacity: 0.91 !important;
+  }
+}
+
+.parent {
+  display: flex;
+  width: 100%;
+  height: 30px;
+}
+
+.child1,
+.child2,
+.child3,
+.child4 {
+  background-color: #e7650f;
+}
+
+.cardbody {
+  top: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: rgb(194, 46, 46) !important; */
+  background-color: #ebf5de;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  /* padding: 5px 0; */
+}
+
+.container .card {
+  position: relative;
+  width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+    5px 5px 5px rgba(0, 0, 0, 0.05), -5px -5px 5px rgba(255, 255, 255, 0.5);
+
+  border-radius: 15px;
+  margin: 30px;
+}
+
+.container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #ebf5fc;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.container .card:hover .box {
+  transform: translateY(-50px);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+
+  background: linear-gradient(60deg, rgba(168, 87, 32, 0.91), #c45b16);
+}
+
+.container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+
+.container .card .box .content h2 {
+  position: absolute;
+  top: -15px;
+  right: 3px;
+  color: rgba(0, 0, 0, 0.05);
+  transition: 0.5s;
+  font-size: 8em;
+  pointer-events: none;
+}
+
+.container .card:hover .box .content h2 {
+  color: rgba(0, 0, 0, 0.05);
+  opacity: 0.5;
+  font-size: 6em;
+  font-family: "PT Serif", serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container .card .box .content h3 {
+  font-size: 1.8em;
+  color: #777;
+  z-index: 1px;
+  transition: 0.5s;
+}
+
+.container .card:hover .box .content h3 {
+  font-size: 2em;
+
+  font-family: "PT Serif", serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container .card:hover .box .content h3,
+.container .card:hover .box .content p {
+  color: #fff;
+}
+
+.card .box .content h3 {
+  font-weight: 700;
+}
+
+.container .card .box .content p {
+  font-size: 1em;
+  font-weight: 300px;
+  color: #777;
+  z-index: 1;
+  transition: 0.5s;
+  font-family: "PT Serif", serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container .card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: #0d5b8f;
+  margin-top: 15px;
+  border-radius: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.02);
+}
+
+.container .card:hover .box .content a {
+  background: #f08343;
+}
+
+@media screen and (min-height: 0px) and (max-width: 700px) {
+  .introsmall {
+    display: none;
+  }
+}
+/*
+.intro {
+margin-right: 46%;
+} */
+
+#introa {
+  margin-left: 0.1px;
+}
+
+.content-img {
+  height: 30px;
+  width: 34px;
+  top: -32px;
+  left: -13px;
+  border-radius: 50%;
+  position: relative;
+  margin-left: -4%;
+  margin-top: 10px !important;
+}
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  .addp {
+    display: block;
+  }
+}
+#cardbody .container .card .box :hover .content-img {
+  opacity: 1 !important;
+  /* opacity: 1; not working */
+}
+
+/* .viewallcourse .centerlana:hover a.viewall {
+/* font-size: 16px !important; */
+/* font-weight: 700 !important; */
+/* background: #1a5681 !important;
+color: whitesmoke; */
+/* } */
+
+.viewallcourse {
+  height: 40px;
+}
+
+fieldset .row form .submit:hover {
+  background-color: #1a5681c0 !important;
+  color: #fff !important;
+  transition: 0.3s;
+}
+
+input {
+  color: #1a5681;
+}
+
+#social-media span:hover a {
+  /* color: #000 !important; */
+  font-weight: 700 !important;
+  letter-spacing: 1px;
+  font-size: 17px;
+  /* padding: 1 px; */
+}
+
+.viewallcourse .mediaa .media:hover {
+  color: #1a5681c0 !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700 !important;
+  background-color: #fff;
+}
+
+.adlog .adminlog:hover {
+  color: #000000 !important;
+  background: white !important;
+  transition: 0.81s !important;
+  color: #777 !important;
+}
+
+.adlog .jatin:hover {
+  color: #000000 !important;
+  background-color: #fff;
+  transition: 0.81s;
+}
+
+/* ---------------signup start------------------- */
+
+#exampleModal {
+  left: 19%;
+  top: 7.42%;
+  /* margin-top: 7.2%; */
+  width: 65%;
+  padding-top: 62px;
+  height: 86%;
+  opacity: 0.9;
+  background: rgba(255, 255, 255, 0.596);
+}
+
+.signupform input,
+#exampleModal2 .loginform input,
+#exampleModal3 .adminform input {
+  width: 100%;
+  padding: 4px 14px;
+  font-size: 21px;
+  font-weight: 800;
+  border-radius: 13px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 2px solid rgba(9, 73, 126, 0.664);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-family: "PT Serif", serif;
+  font-family: "Ubuntu", sans-serif;
+  outline: none;
+}
+
+.signupform input:focus,
+#exampleModal2 .loginform input:focus,
+#exampleModal3 .adminform input:focus {
+  border: 2px solid rgba(0, 78, 141, 0.985);
+}
+
+#exampleModal2 .loginsubmit:hover,
+:focus button .loginform,
+#exampleModal3 .adminloginsubmit:hover,
+:focus button .adminform {
+  color: rgba(20, 86, 122, 0.8) !important;
+  background: #fff !important;
+}
+
+#exampleModal .signupsubmit:hover,
+:focus button .signupsubmit {
+  color: rgba(20, 86, 122, 0.8) !important;
+  background: #fff !important;
+}
+
+/* ---------------signup end------------------- */
+
+/* ---------------login start------------------- */
+#exampleModal2,
+#exampleModal3 {
+  left: 24%;
+  top: 7.42%;
+  width: 56%;
+  padding-top: 62px;
+  height: 65%;
+  opacity: 0.9;
+  background: rgba(255, 255, 255, 0.596);
+}
+/*
+#exampleModal2 .loginform input ,{
+width: 100%;
+padding: 4px 14px;
+font-size: 21px;
+font-weight: 800;
+border-radius: 13px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 2px solid rgba(9, 73, 126, 0.664);
+-webkit-transition: 0.5s;
+transition: 0.5s;
+font-family: "PT Serif", serif;
+font-family: "Ubuntu", sans-serif;
+outline: none;
+}
+
+#exampleModal2 .loginform input:focus {
+border: 2px solid rgba(0, 78, 141, 0.985);
+}
+
+#exampleModal2 .loginsubmit:hover,
+:focus button .signupform {
+color: rgba(20, 86, 122, 0.8) !important;
+background: #fff !important;
+} */
+
+/* ---------------login end------------------- */
