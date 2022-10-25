@@ -2,7 +2,7 @@
 - 👀 I’m interested in Web Development ,Machine learning and Stocks
 - 🌱 I’m currently learning Javascript 
 - 💞️ Happy to help 💛
-- 📫 everyone is most welcomed to my Twitter World! : https://twitter.com/_Jatinn_21
+- 📫 In Touch with : https://linktr.ee/jatinn_21
 
 <!---
 Jatinn-21/Jatinn-21 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
